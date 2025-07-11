@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+canvas {
+  background: #222;
+  border: 4px solid white;
+  margin-top: 20px;
+}

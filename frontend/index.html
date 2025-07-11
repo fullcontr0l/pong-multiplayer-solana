@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multiplayer Pong</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1 class="title">Multiplayer Pong</h1>
+  <div id="lobby">
+    <button id="connectWalletBtn">Connect Wallet</button>
+    <button id="payBtn" disabled>Pay 0.05 SOL & Join Game</button>
+    <p id="status">Not connected</p>
+  </div>
+  <canvas id="gameCanvas" width="600" height="400"></canvas>
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
